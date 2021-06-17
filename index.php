@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap"
@@ -27,21 +24,19 @@
   <body>
     <header class="mb-auto">
       <?php
-  include 'navbar.php';
-  ?>
+        include 'navbar.php';
+        ?>
     </header>
-    <main class="px-3">
-      <center>
-        <div class="container-fluid " style="margin: 10px 0 30px 0; padding: 10px ;">
-        <div class="col-sm-12 col-md">
+    <main style="background-color: #e5ffec">
+      <div class="container flex-center">
+        <div class="row flex-center pt-5 mt-3">
+          <div class="col-md-6 text-center text-md-left margins">
             <div class="heading text-center my-5">
               <h3>Welcome to</h3>
               <h1>THE BANK OF TSF</h1>
             </div>
-          </div>
-          <br /><br /><br />
-          <div class="column activity text-center">
-            <td>
+            <br /><br /><br />
+            <div class="column activity text-center">
               <div class="col-md act">
                 <br />
                 <table class="table table-borderless">
@@ -59,12 +54,20 @@
                   </td>
                 </table>
               </div>
-            </td>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 d-flex justify-content-center"
+            data-wow-delay="0.3s"
+          >
+            <img src="bank3.png" alt="" class="img-responsive" />
           </div>
         </div>
-      </center>
+      </div>
     </main>
-    <br /><br /><br /><br />
+
+    <br /><br /><br />
     <footer class="page-footer font-small">
       <div class="footer-copyright text-center py-3">
         © 2021 Copyright:
