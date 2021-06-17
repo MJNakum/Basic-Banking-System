@@ -1,4 +1,3 @@
-<!-- navbar --> 
       <nav class="navbar navbar-expand-md navbar-light mb-5" style="background-color: #9fdf9f;">
       <a class="navbar-brand" href="index.php">THE BANK OF TSF</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
