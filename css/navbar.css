@@ -1,21 +1,16 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+.nav-link {
+  margin-right: 15px;
+  color: #2f363f;
+  letter-spacing: 0.5px;
+  transition: 0.5s;
+}
+.navbar-brand {
+  color: #4c4b4b;
+  letter-spacing: 0.5px;
 }
 h2 {
-  font-size: 40px;
-}
-table {
-  letter-spacing: 1.2px;
-}
-td {
-  text-align: center;
-}
-
-@media only screen and (orientation: portrait) {
-  * {
-    letter-spacing: 1px;
-  }
+  color: #4c4b4b;
+  letter-spacing: 0.5px;
+  font-family: raleway;
 }
