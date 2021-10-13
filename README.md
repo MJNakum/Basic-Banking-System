@@ -1,4 +1,4 @@
-# Basic-Banking-System
+# Basic Banking System
 
 Create a simple dynamic website which has the following specs.</br>
  - Start with creating a dummy data in database for upto 10 customers.
